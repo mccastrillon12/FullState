@@ -232,6 +232,9 @@
   -ms-transition: 0.3s all ease;
   transition: 0.3s all ease;
 }
+.tooltip_hover p{
+  cursor: pointer;
+}
 
 /* -------------------------------------------------- */
 /*	Footer
