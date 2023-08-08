@@ -8,64 +8,102 @@
     <meta name="author" content="" />
 
     <!-- Your styles -->
-    <link href="css/style.css" rel="stylesheet" media="screen" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="./components/shared/style.css"
+      rel="stylesheet"
+      media="screen"
+    />
+    <link href="./components/blog/blog.css" rel="stylesheet" media="screen" />
   </head>
 
   <body>
     <nav class="navbar">
       <div class="content">
-        <div class="logo"><a href="#">CodingNepal</a></div>
+        <div class="logo">
+          <a href="#"><img src="./img/logo.png" alt="" /></a>
+        </div>
         <ul class="menu-list">
           <div class="icon cancel-btn">
-            <img src="./img/menu/icons8-x-64.png" alt="">
+            <img src="./img/menu/icons8-x-64.png" alt="" />
           </div>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Features</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="./components/contact/contact.html">Contact</a></li>
+          <li><a href="./components/login/login.html">Login</a></li>
         </ul>
         <div class="icon menu-btn">
-          <img src="./img/menu/icons8-menú-50.png" alt="">
+          <img src="./img/menu/icons8-menú-50.png" alt="" />
         </div>
       </div>
     </nav>
-  
+
     <div class="banner"></div>
 
-    <!-- End content info -->
     <section class="container content_info">
-      <!-- Newsletter Box -->
       <div class="principal-title">
         <h1><span>STAY</span> INFORMED</h1>
       </div>
 
-      <!-- End Newsletter Box -->
-
       <!-- Title-->
       <div class="titles">
-        <span>KEEP INFORMED</span>
+        <h5><span class="title__subTitle">KEEP</span> INFORMED</h5>
         <br />
-        <h1>LATEST NEWS REAL ESTATE</h1>
+        <h1><span class="title__subTitle">STAY</span> NEWS REAL ESTATE</h1>
       </div>
       <!-- End Title-->
 
+      <!-- Post-->
       <div class="post">
         <div class="post__container">
           <div class="post__card">
             <img class="post__image" src="./img/blog/post-1.jpg" alt="" />
             <div class="post__textos">
               <h3>Rock In Rio</h3>
-              <p>27 de Octubre 2021</p>
+              <p class="post__author">Posted by: Admin</p>
+              <p class="post__date">1 de Agosto</p>
+              <div class="post__description line-clamp">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Expedita perferendis ad voluptates itaque? A placeat quod
+                  ducimus itaque cum. Laudantium voluptatibus suscipit excepturi
+                  necessitatibus eaque debitis tempora animi cum laboriosam
+                  voluptates et amet sequi dolores sit pariatur tenetur
+                  asperiores, aut accusamus corrupti veritatis reprehenderit
+                  exercitationem! Beatae consectetur repudiandae dignissimos
+                  numquam?
+                </p>
+              </div>
+
+              <button class="post__button">Read more</button>
             </div>
           </div>
         </div>
+
         <div class="post__container">
           <div class="post__card">
             <img class="post__image" src="./img/blog/post-2.jpg" alt="" />
             <div class="post__textos">
-              <h3>Rock In Rio</h3>
-              <p>27 de Octubre 2021</p>
+              <h3>Rock In Rio1</h3>
+              <p class="post__author">Posted by: Admin</p>
+              <p class="post__date">1 de Agosto</p>
+              <div class="post__description line-clamp">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Expedita perferendis ad voluptates itaque? A placeat quod
+                  ducimus itaque cum. Laudantium voluptatibus suscipit excepturi
+                  necessitatibus eaque debitis tempora animi cum laboriosam
+                  voluptates et amet sequi dolores sit pariatur tenetur
+                  asperiores, aut accusamus corrupti veritatis reprehenderit
+                  exercitationem! Beatae consectetur repudiandae dignissimos
+                  numquam?
+                </p>
+              </div>
+              <button class="post__button">Read more</button>
             </div>
           </div>
         </div>
@@ -73,8 +111,22 @@
           <div class="post__card">
             <img class="post__image" src="./img/blog/post-3.jpg" alt="" />
             <div class="post__textos">
-              <h3>Rock In Rio</h3>
-              <p>27 de Octubre 2021</p>
+              <h3>Rock In Rio2</h3>
+              <p class="post__author">Posted by: Admin</p>
+              <p class="post__date">1 de Agosto</p>
+              <div class="post__description line-clamp">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Expedita perferendis ad voluptates itaque? A placeat quod
+                  ducimus itaque cum. Laudantium voluptatibus suscipit excepturi
+                  necessitatibus eaque debitis tempora animi cum laboriosam
+                  voluptates et amet sequi dolores sit pariatur tenetur
+                  asperiores, aut accusamus corrupti veritatis reprehenderit
+                  exercitationem! Beatae consectetur repudiandae dignissimos
+                  numquam?
+                </p>
+              </div>
+              <button class="post__button">Read more</button>
             </div>
           </div>
         </div>
@@ -82,8 +134,22 @@
           <div class="post__card">
             <img class="post__image" src="./img/blog/post-4.jpg" alt="" />
             <div class="post__textos">
-              <h3>Rock In Rio</h3>
-              <p>27 de Octubre 2021</p>
+              <h3>Rock In Rio3</h3>
+              <p class="post__author">Posted by: Admin</p>
+              <p class="post__date">1 de Agosto</p>
+              <div class="post__description line-clamp">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Expedita perferendis ad voluptates itaque? A placeat quod
+                  ducimus itaque cum. Laudantium voluptatibus suscipit excepturi
+                  necessitatibus eaque debitis tempora animi cum laboriosam
+                  voluptates et amet sequi dolores sit pariatur tenetur
+                  asperiores, aut accusamus corrupti veritatis reprehenderit
+                  exercitationem! Beatae consectetur repudiandae dignissimos
+                  numquam?
+                </p>
+              </div>
+              <button class="post__button">Read more</button>
             </div>
           </div>
         </div>
@@ -91,8 +157,22 @@
           <div class="post__card">
             <img class="post__image" src="./img/blog/post-5.jpg" alt="" />
             <div class="post__textos">
-              <h3>Rock In Rio</h3>
-              <p>27 de Octubre 2021</p>
+              <h3>Rock In Rio4</h3>
+              <p class="post__author">Posted by: Admin</p>
+              <p class="post__date">1 de Agosto</p>
+              <div class="post__description line-clamp">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Expedita perferendis ad voluptates itaque? A placeat quod
+                  ducimus itaque cum. Laudantium voluptatibus suscipit excepturi
+                  necessitatibus eaque debitis tempora animi cum laboriosam
+                  voluptates et amet sequi dolores sit pariatur tenetur
+                  asperiores, aut accusamus corrupti veritatis reprehenderit
+                  exercitationem! Beatae consectetur repudiandae dignissimos
+                  numquam?
+                </p>
+              </div>
+              <button class="post__button">Read more</button>
             </div>
           </div>
         </div>
@@ -100,8 +180,22 @@
           <div class="post__card">
             <img class="post__image" src="./img/blog/post-6.jpg" alt="" />
             <div class="post__textos">
-              <h3>Rock In Rio</h3>
-              <p>27 de Octubre 2021</p>
+              <h3>Rock In Rio5</h3>
+              <p class="post__author">Posted by: Admin</p>
+              <p class="post__date">1 de Agosto</p>
+              <div class="post__description line-clamp">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Expedita perferendis ad voluptates itaque? A placeat quod
+                  ducimus itaque cum. Laudantium voluptatibus suscipit excepturi
+                  necessitatibus eaque debitis tempora animi cum laboriosam
+                  voluptates et amet sequi dolores sit pariatur tenetur
+                  asperiores, aut accusamus corrupti veritatis reprehenderit
+                  exercitationem! Beatae consectetur repudiandae dignissimos
+                  numquam?
+                </p>
+              </div>
+              <button class="post__button">Read more</button>
             </div>
           </div>
         </div>
@@ -109,8 +203,22 @@
           <div class="post__card">
             <img class="post__image" src="./img/blog/post-7.jpg" alt="" />
             <div class="post__textos">
-              <h3>Rock In Rio</h3>
-              <p>27 de Octubre 2021</p>
+              <h3>Rock In Rio6</h3>
+              <p class="post__author">Posted by: Admin</p>
+              <p class="post__date">1 de Agosto</p>
+              <div class="post__description line-clamp">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Expedita perferendis ad voluptates itaque? A placeat quod
+                  ducimus itaque cum. Laudantium voluptatibus suscipit excepturi
+                  necessitatibus eaque debitis tempora animi cum laboriosam
+                  voluptates et amet sequi dolores sit pariatur tenetur
+                  asperiores, aut accusamus corrupti veritatis reprehenderit
+                  exercitationem! Beatae consectetur repudiandae dignissimos
+                  numquam?
+                </p>
+              </div>
+              <button class="post__button">Read more</button>
             </div>
           </div>
         </div>
@@ -118,8 +226,22 @@
           <div class="post__card">
             <img class="post__image" src="./img/blog/post-8.jpg" alt="" />
             <div class="post__textos">
-              <h3>Rock In Rio</h3>
-              <p>27 de Octubre 2021</p>
+              <h3>Rock In Rio7</h3>
+              <p class="post__author">Posted by: Admin</p>
+              <p class="post__date">1 de Agosto</p>
+              <div class="post__description line-clamp">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Expedita perferendis ad voluptates itaque? A placeat quod
+                  ducimus itaque cum. Laudantium voluptatibus suscipit excepturi
+                  necessitatibus eaque debitis tempora animi cum laboriosam
+                  voluptates et amet sequi dolores sit pariatur tenetur
+                  asperiores, aut accusamus corrupti veritatis reprehenderit
+                  exercitationem! Beatae consectetur repudiandae dignissimos
+                  numquam?
+                </p>
+              </div>
+              <button class="post__button">Read more</button>
             </div>
           </div>
         </div>
@@ -127,8 +249,22 @@
           <div class="post__card">
             <img class="post__image" src="./img/blog/post-16.jpg" alt="" />
             <div class="post__textos">
-              <h3>Rock In Rio</h3>
-              <p>27 de Octubre 2021</p>
+              <h3>Rock In Rio8</h3>
+              <p class="post__author">Posted by: Admin</p>
+              <p class="post__date">1 de Agosto</p>
+              <div class="post__description line-clamp">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Expedita perferendis ad voluptates itaque? A placeat quod
+                  ducimus itaque cum. Laudantium voluptatibus suscipit excepturi
+                  necessitatibus eaque debitis tempora animi cum laboriosam
+                  voluptates et amet sequi dolores sit pariatur tenetur
+                  asperiores, aut accusamus corrupti veritatis reprehenderit
+                  exercitationem! Beatae consectetur repudiandae dignissimos
+                  numquam?
+                </p>
+              </div>
+              <button class="post__button">Read more</button>
             </div>
           </div>
         </div>
@@ -136,8 +272,22 @@
           <div class="post__card">
             <img class="post__image" src="./img/blog/post-9.jpg" alt="" />
             <div class="post__textos">
-              <h3>Rock In Rio</h3>
-              <p>27 de Octubre 2021</p>
+              <h3>Rock In Rio9</h3>
+              <p class="post__author">Posted by: Admin</p>
+              <p class="post__date">1 de Agosto</p>
+              <div class="post__description line-clamp">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Expedita perferendis ad voluptates itaque? A placeat quod
+                  ducimus itaque cum. Laudantium voluptatibus suscipit excepturi
+                  necessitatibus eaque debitis tempora animi cum laboriosam
+                  voluptates et amet sequi dolores sit pariatur tenetur
+                  asperiores, aut accusamus corrupti veritatis reprehenderit
+                  exercitationem! Beatae consectetur repudiandae dignissimos
+                  numquam?
+                </p>
+              </div>
+              <button class="post__button">Read more</button>
             </div>
           </div>
         </div>
@@ -145,8 +295,22 @@
           <div class="post__card">
             <img class="post__image" src="./img/blog/post-10.jpg" alt="" />
             <div class="post__textos">
-              <h3>Rock In Rio</h3>
-              <p>27 de Octubre 2021</p>
+              <h3>Rock In Rio10</h3>
+              <p class="post__author">Posted by: Admin</p>
+              <p class="post__date">1 de Agosto</p>
+              <div class="post__description line-clamp">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Expedita perferendis ad voluptates itaque? A placeat quod
+                  ducimus itaque cum. Laudantium voluptatibus suscipit excepturi
+                  necessitatibus eaque debitis tempora animi cum laboriosam
+                  voluptates et amet sequi dolores sit pariatur tenetur
+                  asperiores, aut accusamus corrupti veritatis reprehenderit
+                  exercitationem! Beatae consectetur repudiandae dignissimos
+                  numquam?
+                </p>
+              </div>
+              <button class="post__button">Read more</button>
             </div>
           </div>
         </div>
@@ -154,8 +318,22 @@
           <div class="post__card">
             <img class="post__image" src="./img/blog/post-11" alt="" />
             <div class="post__textos">
-              <h3>Rock In Rio</h3>
-              <p>27 de Octubre 2021</p>
+              <h3>Rock In Rio11</h3>
+              <p class="post__author">Posted by: Admin</p>
+              <p class="post__date">1 de Agosto</p>
+              <div class="post__description line-clamp">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Expedita perferendis ad voluptates itaque? A placeat quod
+                  ducimus itaque cum. Laudantium voluptatibus suscipit excepturi
+                  necessitatibus eaque debitis tempora animi cum laboriosam
+                  voluptates et amet sequi dolores sit pariatur tenetur
+                  asperiores, aut accusamus corrupti veritatis reprehenderit
+                  exercitationem! Beatae consectetur repudiandae dignissimos
+                  numquam?
+                </p>
+              </div>
+              <button class="post__button">Read more</button>
             </div>
           </div>
         </div>
@@ -163,8 +341,22 @@
           <div class="post__card">
             <img class="post__image" src="./img/blog/post-12.jpg" alt="" />
             <div class="post__textos">
-              <h3>Rock In Rio</h3>
-              <p>27 de Octubre 2021</p>
+              <h3>Rock In Rio12</h3>
+              <p class="post__author">Posted by: Admin</p>
+              <p class="post__date">1 de Agosto</p>
+              <div class="post__description line-clamp">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Expedita perferendis ad voluptates itaque? A placeat quod
+                  ducimus itaque cum. Laudantium voluptatibus suscipit excepturi
+                  necessitatibus eaque debitis tempora animi cum laboriosam
+                  voluptates et amet sequi dolores sit pariatur tenetur
+                  asperiores, aut accusamus corrupti veritatis reprehenderit
+                  exercitationem! Beatae consectetur repudiandae dignissimos
+                  numquam?
+                </p>
+              </div>
+              <button class="post__button">Read more</button>
             </div>
           </div>
         </div>
@@ -172,8 +364,22 @@
           <div class="post__card">
             <img class="post__image" src="./img/blog/post-13.jpg" alt="" />
             <div class="post__textos">
-              <h3>Rock In Rio</h3>
-              <p>27 de Octubre 2021</p>
+              <h3>Rock In Rio13</h3>
+              <p class="post__author">Posted by: Admin</p>
+              <p class="post__date">1 de Agosto</p>
+              <div class="post__description line-clamp">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Expedita perferendis ad voluptates itaque? A placeat quod
+                  ducimus itaque cum. Laudantium voluptatibus suscipit excepturi
+                  necessitatibus eaque debitis tempora animi cum laboriosam
+                  voluptates et amet sequi dolores sit pariatur tenetur
+                  asperiores, aut accusamus corrupti veritatis reprehenderit
+                  exercitationem! Beatae consectetur repudiandae dignissimos
+                  numquam?
+                </p>
+              </div>
+              <button class="post__button">Read more</button>
             </div>
           </div>
         </div>
@@ -181,8 +387,22 @@
           <div class="post__card">
             <img class="post__image" src="./img/blog/post-14" alt="" />
             <div class="post__textos">
-              <h3>Rock In Rio</h3>
-              <p>27 de Octubre 2021</p>
+              <h3>Rock In Rio14</h3>
+              <p class="post__author">Posted by: Admin</p>
+              <p class="post__date">1 de Agosto</p>
+              <div class="post__description line-clamp">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Expedita perferendis ad voluptates itaque? A placeat quod
+                  ducimus itaque cum. Laudantium voluptatibus suscipit excepturi
+                  necessitatibus eaque debitis tempora animi cum laboriosam
+                  voluptates et amet sequi dolores sit pariatur tenetur
+                  asperiores, aut accusamus corrupti veritatis reprehenderit
+                  exercitationem! Beatae consectetur repudiandae dignissimos
+                  numquam?
+                </p>
+              </div>
+              <button class="post__button">Read more</button>
             </div>
           </div>
         </div>
@@ -190,8 +410,22 @@
           <div class="post__card">
             <img class="post__image" src="./img/blog/post-15.jpg" alt="" />
             <div class="post__textos">
-              <h3>Rock In Rio</h3>
-              <p>27 de Octubre 2021</p>
+              <h3>Rock In Rio15</h3>
+              <p class="post__author">Posted by: Admin</p>
+              <p class="post__date">1 de Agosto</p>
+              <div class="post__description line-clamp">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Expedita perferendis ad voluptates itaque? A placeat quod
+                  ducimus itaque cum. Laudantium voluptatibus suscipit excepturi
+                  necessitatibus eaque debitis tempora animi cum laboriosam
+                  voluptates et amet sequi dolores sit pariatur tenetur
+                  asperiores, aut accusamus corrupti veritatis reprehenderit
+                  exercitationem! Beatae consectetur repudiandae dignissimos
+                  numquam?
+                </p>
+              </div>
+              <button class="post__button">Read more</button>
             </div>
           </div>
         </div>
@@ -199,8 +433,22 @@
           <div class="post__card">
             <img class="post__image" src="./img/blog/post-16.jpg" alt="" />
             <div class="post__textos">
-              <h3>Rock In Rio</h3>
-              <p>27 de Octubre 2021</p>
+              <h3>Rock In Rio16</h3>
+              <p class="post__author">Posted by: Admin</p>
+              <p class="post__date">1 de Agosto</p>
+              <div class="post__description line-clamp">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Expedita perferendis ad voluptates itaque? A placeat quod
+                  ducimus itaque cum. Laudantium voluptatibus suscipit excepturi
+                  necessitatibus eaque debitis tempora animi cum laboriosam
+                  voluptates et amet sequi dolores sit pariatur tenetur
+                  asperiores, aut accusamus corrupti veritatis reprehenderit
+                  exercitationem! Beatae consectetur repudiandae dignissimos
+                  numquam?
+                </p>
+              </div>
+              <button class="post__button">Read more</button>
             </div>
           </div>
         </div>
@@ -208,8 +456,22 @@
           <div class="post__card">
             <img class="post__image" src="./img/blog/post-4.jpg" alt="" />
             <div class="post__textos">
-              <h3>Rock In Rio</h3>
-              <p>27 de Octubre 2021</p>
+              <h3>Rock In Rio17</h3>
+              <p class="post__author">Posted by: Admin</p>
+              <p class="post__date">1 de Agosto</p>
+              <div class="post__description line-clamp">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Expedita perferendis ad voluptates itaque? A placeat quod
+                  ducimus itaque cum. Laudantium voluptatibus suscipit excepturi
+                  necessitatibus eaque debitis tempora animi cum laboriosam
+                  voluptates et amet sequi dolores sit pariatur tenetur
+                  asperiores, aut accusamus corrupti veritatis reprehenderit
+                  exercitationem! Beatae consectetur repudiandae dignissimos
+                  numquam?
+                </p>
+              </div>
+              <button class="post__button">Read more</button>
             </div>
           </div>
         </div>
@@ -217,16 +479,61 @@
           <div class="post__card">
             <img class="post__image" src="./img/blog/post-13.jpg" alt="" />
             <div class="post__textos">
-              <h3>Rock In Rio</h3>
-              <p>27 de Octubre 2021</p>
+              <h3>Rock In Rio18</h3>
+              <p class="post__author">Posted by: Admin</p>
+              <p class="post__date">1 de Agosto</p>
+              <div class="post__description line-clamp">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Expedita perferendis ad voluptates itaque? A placeat quod
+                  ducimus itaque cum. Laudantium voluptatibus suscipit excepturi
+                  necessitatibus eaque debitis tempora animi cum laboriosam
+                  voluptates et amet sequi dolores sit pariatur tenetur
+                  asperiores, aut accusamus corrupti veritatis reprehenderit
+                  exercitationem! Beatae consectetur repudiandae dignissimos
+                  numquam?
+                </p>
+              </div>
+              <button class="post__button">Read more</button>
             </div>
           </div>
         </div>
       </div>
       <div class="pagination"></div>
     </section>
+    <!-- End Post-->
 
-    <!-- End content info-->
+    <!-- Modal-->
+    <div class="modal__blog">
+      <div class="modal__container">
+        <h2 class="modal__title"></h2>
+        <p class="modal__paragraph"></p>
+        <img class="modal__image" />
+        <h1>Comments</h1>
+        <div class="modal__add">
+          <img src="./img/blog/avatar-1.jpg" alt="" />
+          <p class="modal__comments">
+            <span class="modal__date">3-07-23</span><br />
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique,
+            laborum?
+          </p>
+        </div>
+        <div class="modal__add">
+          <img src="./img/blog/avatar-2" alt="" />
+          <p class="modal__comments">
+            <span class="modal__date">3-07-23</span><br />
+            Good
+          </p>
+        </div>
+        <div>
+          <input class="modal__input" placeholder="Leave a comment" />
+          <button class="modal__send">Send</button>
+        </div>
+
+        <a href="#" class="modal__close">Close</a>
+      </div>
+    </div>
+    <!-- End Modal-->
 
     <!-- Footer area - footer_medium -->
     <footer class="section_area footer_medium">
@@ -237,14 +544,14 @@
             <h3>Contact Us</h3>
             <ul class="contact_footer">
               <li>
-                <i class="icon-envelope"></i><a href="#">example@example.com</a>
+                <a href="#">example@example.com</a>
               </li>
               <li>
-                <i class="icon-headphones"></i><a href="#">55-5698-4589</a>
+                <a href="#">55-5698-4589</a>
               </li>
-              <li class="location">
-                <i class="icon-home"></i
-                ><a href="#"> Av new stret - New York</a>
+              <li>
+                <a href="#"> Av new stret</a><br />
+                <a href="#"> New York</a>
               </li>
             </ul>
           </div>
@@ -299,7 +606,7 @@
     <!-- Footer area - footer_down -->
     <footer class="section_area footer_down">
       <div class="container">
-        <div class="row-fluid">
+        <div class="row-fluid-footer">
           <div class="span6">
             <p>
               &copy; 2013 Realte - Real State Template. All rights reserved.
@@ -308,19 +615,19 @@
           <div class="span6">
             <ul class="social">
               <li class="tooltip_hover" title="Facebook">
-                <a href="#"><i class="icon-facebook"></i></a>
+                <a href="#"><img src="./css/icons/facebook.png" alt="" /></a>
               </li>
               <li class="tooltip_hover" title="Twitter">
-                <a href="#"><i class="icon-twitter"></i></a>
+                <a href="#"><img src="./css/icons/twitter.png" alt="" /></a>
               </li>
               <li class="tooltip_hover" title="Google Plus">
-                <a href="#"><i class="icon-google-plus"></i></a>
+                <a href="#"><img src="./css/icons/google-plus.png" alt="" /></a>
               </li>
               <li class="tooltip_hover" title="Pinterest">
-                <a href="#"><i class="icon-pinterest"></i></a>
+                <a href="#"><img src="./css/icons/pinterest.png" alt="" /></a>
               </li>
               <li class="tooltip_hover" title="Linkedin">
-                <a href="#"><i class="icon-linkedin"></i></a>
+                <a href="#"><img src="./css/icons/linkedin.png" alt="" /></a>
               </li>
             </ul>
           </div>
@@ -329,6 +636,6 @@
     </footer>
 
     <!-- End Footer area- footer_down -->
-    <script src="./js/index.js"></script>
+    <script src="./components/shared/index.js"></script>
   </body>
 </html>
