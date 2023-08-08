@@ -7,9 +7,7 @@
 /* bootstrap.css  - include resetes ( Media querys, grid-responsive,layout).*/
 @import url("../../css/bootstrap/bootstrap.css");
 
-/*Google Fonts*/
-@import url("http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,600,300,700,800");
-@import url("http://fonts.googleapis.com/css?family=Roboto:400,700");
+
 /*Icons Font-Awesome*/
 
 /*Animations*/
