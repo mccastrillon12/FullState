@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   function postsPerPage() {
     if (window.matchMedia("(min-width: 760px) and (max-width: 820px)").matches) {
-      return 4;
+      return 8;
     } else if (
       window.matchMedia("(min-width: 319px) and (max-width: 370px)").matches ||
       window.matchMedia("(min-width: 374px) and (max-width: 424px)").matches ||

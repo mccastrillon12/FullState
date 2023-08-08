@@ -461,9 +461,7 @@ form {
     border-bottom:none
    
   }
-  .navbar{
-    width: 30%;
-  }
+
 .row-fluid {
   display: flex;
     align-items: left;
@@ -537,7 +535,7 @@ ul.contact_footer li a{
  
 }
 .row-fluid-footer {
-width: 35%; 
+  display: flex;
 }
 
 .social{
