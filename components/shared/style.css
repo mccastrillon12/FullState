@@ -1,18 +1,17 @@
 /* --------This file is used for contact.html and index.html---- */
 
 
-
 /*	01 Import styles
 /* ---------------------------------------------------------------------- */
 
 /* bootstrap.css  - include resetes ( Media querys, grid-responsive,layout).*/
 @import url("../../css/bootstrap/bootstrap.css");
-@import url("../../css/bootstrap/bootstrap.css/bootstrap-responsive.css");
+
 /*Google Fonts*/
 @import url("http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,600,300,700,800");
 @import url("http://fonts.googleapis.com/css?family=Roboto:400,700");
 /*Icons Font-Awesome*/
-@import url("icons/font-awesome.min.css");
+
 /*Animations*/
 @import url("../../css/animations/animate.css");
 
@@ -279,7 +278,7 @@ footer h3 {
 .footer_medium {
   background-color: #1e1e1e;
   border-top: 5px solid #0581b5;
-  background: #1e1e1e url("../img/arrow_footer.png") no-repeat top center;
+
 }
 .footer_medium .testimonials {
   background: #494949;
@@ -291,7 +290,6 @@ footer h3 {
 }
 .footer_medium .arrow_testimonials {
   position: absolute;
-  background: url("../img/arrow_testimonials.png");
   width: 79px;
   height: 24px;
   bottom: -24px;
