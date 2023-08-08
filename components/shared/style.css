@@ -344,6 +344,9 @@ footer h3 {
 .span6{
   width: 100% !important;
 }
+h6{
+color: white;
+}
 /* Contact Footer -------------------------------------------*/
 
 ul.contact_footer {
