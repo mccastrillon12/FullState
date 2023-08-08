@@ -1,0 +1,143 @@
+body {
+  background-color: #1b1b1b;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Condensed", sans-serif;
+  letter-spacing: 3px;
+}
+
+
+
+
+
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #1b1b1b;
+  height: 100%;
+}
+.contact__title {
+  font-size: 50px !important;
+  text-align: center;
+}
+
+.contact__container {
+  position: relative;
+  width: 700px;
+  min-height: 400px;
+  background: #3837374f;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 25px 45px rgb(0, 0, 0);
+}
+
+.contact__form {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 40px;
+}
+.contact__form h2 {
+  position: relative;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 40px;
+}
+
+.contact__form h2::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  width: 100%;
+  height: 4px;
+  background: #fff;
+}
+
+.contact__inputBox {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.contact__form .contact__inputBox input {
+  width: 100%;
+  background: none;
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: #ffffff;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.contact__inputBox input::placeholder {
+  color: #fff;
+}
+
+ .contact__inputBox input[type="submit"] {
+  align-items: center;
+  background: #1b1b1b;
+  color: #666;
+  width: 80%;
+  cursor: pointer;
+  margin-bottom: 20px;
+  font-weight: 600;
+  margin-left: 10%;
+  box-shadow: 0 5px 15px rgba(0, 0, 0);
+  border-bottom: none;
+  border-radius: 10px;
+}
+.contact__inputBox input[type="submit"]:hover {
+  color: white;
+  box-shadow: 0 5px 15px rgb(255, 255, 255);
+}
+.forget {
+  margin-top: 5px;
+  color: #000000;
+}
+
+.forget a {
+  color: #fff;
+  font-weight: 600;
+}
+@media (min-width: 319px) and (max-width: 370px) {
+  .container-contact {
+    width: 80%;
+  }
+
+  .contact__title {
+    font-size: 25px !important;
+  }
+  .contact__inputBox input[type="submit"] {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+  @media (min-width: 375px) and (max-width: 424px) {
+    .container-contact {
+      width: 100%;
+      margin-left: 0;
+    }
+
+    .contact__title {
+      font-size: 18px !important;
+    }
+    .contact__inputBox input[type="submit"] {
+      width: 100%;
+      margin-left: 0;
+    }
+  }
+
