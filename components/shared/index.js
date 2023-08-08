@@ -117,7 +117,7 @@ modalsOpen.forEach((openModal) => {
     contentmodal.classList.add('modal--show');
 
     const containerPost = e.target.closest('.post__container');
-    const titlePost = containerPost.querySelector('h3').textContent;
+    const titlePost = containerPost.querySelector('h1').textContent;
     const imageSrcPost = containerPost.querySelector('.post__image').src;
     const textPost = containerPost.querySelector('.post__description').textContent;
 
